@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  /* display: flex; */
+  border-radius: 7px;
+}
+
+.card-detail {
+  display: flex;
+  /* justify-content: center; */
+  border-radius: 7px;
+  /* height: 300px; */
+  
+}
+
+.card-title {
+  display: flex;
+  
+}
+
+.card-title div {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-right: 20px;
+  background-color: #282c34;
+  color: aliceblue;
+} 
+
+.card-title button {
+  padding: 5px 20px;
+  background-color: blue;
+  color: rgb(255, 255, 255);
+  border-radius: 7px;
+}
+
+.card-title button:hover {
+  background-color: white;
+  color: black;
+}

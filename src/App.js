@@ -4,6 +4,13 @@ import img2 from './assets/gclass.jpg'
 import './App.css';
 import MyForm from './components/MyForm';
 import Counter from './components/Counter';
+import PasswordChecker from './components/PasswordChecker';
+import Header from './components/Header';
+import YellowBorder from './components/YellowBorder';
+import Card from './components/Card';
+import Movie from './components/Movie';
+import List from './components/List';
+import CityList from './components/CityList';
 
 function App() { 
   const expenses = [
@@ -34,7 +41,14 @@ function App() {
 
   return (
     <div className="App">
-      <div>
+      <PasswordChecker/>
+      <YellowBorder color="yellow">
+        <Header/>
+      </YellowBorder>
+      <Card/>
+      <List/>
+      <CityList />
+      {/* <div>
         <h2>My Expenses</h2>
         {expenses.map((expense)=>{
           return (
@@ -67,7 +81,7 @@ function App() {
             })}
             </div>
           </div>
-      </div>
+      </div> */}
     </div>
   );
 }
